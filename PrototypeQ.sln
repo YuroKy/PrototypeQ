@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeQ.DataModel", "Pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeQ.Common", "PrototypeQ.Common\PrototypeQ.Common.csproj", "{002BC6E3-6961-498F-973E-47AF81D58FA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeQ.Services", "PrototypeQ.Services\PrototypeQ.Services.csproj", "{3785CDAC-6C96-4730-93A3-70F72BCC44EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{002BC6E3-6961-498F-973E-47AF81D58FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{002BC6E3-6961-498F-973E-47AF81D58FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{002BC6E3-6961-498F-973E-47AF81D58FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3785CDAC-6C96-4730-93A3-70F72BCC44EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3785CDAC-6C96-4730-93A3-70F72BCC44EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3785CDAC-6C96-4730-93A3-70F72BCC44EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3785CDAC-6C96-4730-93A3-70F72BCC44EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
