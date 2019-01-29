@@ -1,6 +1,6 @@
 ﻿namespace PrototypeQ.DataAccess.Entities
 {
-	public class Person
+	public class PersonEntity
 	{
 		public int Id { get; set; }
 		public string FirstName { get; set; }

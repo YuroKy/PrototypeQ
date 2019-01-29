@@ -4,9 +4,9 @@ using PrototypeQ.DataAccess.Entities;
 
 namespace PrototypeQ.DataAccess.Configurations
 {
-	public class PersonConfiguration : IEntityTypeConfiguration<Person>
+	public class PersonConfiguration : IEntityTypeConfiguration<PersonEntity>
 	{
-		public void Configure(EntityTypeBuilder<Person> builder)
+		public void Configure(EntityTypeBuilder<PersonEntity> builder)
 		{
 			builder
 				.ToTable("People")

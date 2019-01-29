@@ -12,6 +12,6 @@ namespace PrototypeQ.DataAccess.Contexts
 			modelBuilder.ApplyConfiguration(new PersonConfiguration());
 		}
 
-		public DbSet<Person> People { get; set; }
+		public DbSet<PersonEntity> People { get; set; }
 	}
 }
