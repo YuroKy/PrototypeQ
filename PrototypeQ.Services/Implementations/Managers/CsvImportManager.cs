@@ -1,22 +1,22 @@
 ﻿using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using PrototypeQ.DataModel.Models;
 using PrototypeQ.Services.Abstractions.Managers;
-using PrototypeQ.Services.Mappers;
+using PrototypeQ.Services.Abstractions.Strategies;
 
 namespace PrototypeQ.Services.Implementations.Managers
 {
 	public class CsvImportManager : IFileImportManager
 	{
+		private readonly ICsvReadingStrategy _readingStrategy;
+
+		public CsvImportManager(ICsvReadingStrategy readingStrategy)
+		{
+			_readingStrategy = readingStrategy;
+		}
+
 		public List<PersonModel> Import(string path)
 		{
-			var lines = File.ReadAllLines(path);
-
-			return  lines
-				.Select(row => row.Split(','))
-				.Select(PersonMapper.ToPersonModel)
-				.ToList();
+			return _readingStrategy.Read(path);
 		}
 	}
 }
