@@ -1,7 +1,7 @@
 ﻿using PrototypeQ.DataAccess.Entities;
 using PrototypeQ.DataModel.Models;
 
-namespace PrototypeQ.Services.Mappers
+namespace PrototypeQ.Services.Implementations.Mappers
 {
 	public static class PersonMapper
 	{

@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using PrototypeQ.DataModel.Models;
 using PrototypeQ.Services.Abstractions.Strategies;
-using PrototypeQ.Services.Mappers;
+using PrototypeQ.Services.Implementations.Mappers;
 
 namespace PrototypeQ.Services.Implementations.Strategies
 {
