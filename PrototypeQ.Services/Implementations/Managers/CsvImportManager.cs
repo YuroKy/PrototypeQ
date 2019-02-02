@@ -2,10 +2,10 @@
 using System.IO;
 using System.Linq;
 using PrototypeQ.DataModel.Models;
-using PrototypeQ.Services.Managers.Abstractions;
+using PrototypeQ.Services.Abstractions.Managers;
 using PrototypeQ.Services.Mappers;
 
-namespace PrototypeQ.Services.Managers.Implementations
+namespace PrototypeQ.Services.Implementations.Managers
 {
 	public class CsvImportManager : IFileImportManager
 	{

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using PrototypeQ.DataModel.Models;
 
-namespace PrototypeQ.Services.Services.Abstractions
+namespace PrototypeQ.Services.Abstractions.Services
 {
 	public interface IPersonService
 	{

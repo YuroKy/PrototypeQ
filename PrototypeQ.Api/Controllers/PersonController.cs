@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PrototypeQ.Services.Services.Abstractions;
+using PrototypeQ.Services.Abstractions.Services;
 
 namespace PrototypeQ.Api.Controllers
 {

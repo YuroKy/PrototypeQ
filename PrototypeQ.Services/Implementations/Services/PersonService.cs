@@ -2,10 +2,10 @@
 using System.Linq;
 using PrototypeQ.DataAccess.Contexts;
 using PrototypeQ.DataModel.Models;
+using PrototypeQ.Services.Abstractions.Services;
 using PrototypeQ.Services.Mappers;
-using PrototypeQ.Services.Services.Abstractions;
 
-namespace PrototypeQ.Services.Services.Implementations
+namespace PrototypeQ.Services.Implementations.Services
 {
 	public class PersonService : IPersonService
 	{
