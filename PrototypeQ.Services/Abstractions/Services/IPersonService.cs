@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using PrototypeQ.DataModel.Models;
+using PrototypeQ.Data.Models;
 
 namespace PrototypeQ.Services.Abstractions.Services
 {

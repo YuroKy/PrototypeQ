@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using PrototypeQ.DataModel.Models;
+using PrototypeQ.Data.Models;
 using PrototypeQ.Services.Abstractions.Strategies;
 using PrototypeQ.Services.Implementations.Mappers;
 

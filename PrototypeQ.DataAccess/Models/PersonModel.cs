@@ -1,4 +1,4 @@
-﻿namespace PrototypeQ.DataModel.Models
+﻿namespace PrototypeQ.Data.Models
 {
 	public class PersonModel
 	{
