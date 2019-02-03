@@ -25,7 +25,7 @@ namespace PrototypeQ.Services.Implementations.Services
 				.GetFields(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public)
 				.Select(field => new FilterAvailabilityModel
 				{
-					Title = field.Name,
+					Title = field.Name.Split('>').First().Substring(1),
 					AvailableConditionTypes = GetFilterConditionType(field.FieldType),
 					AvailableValueTypes = GetAvailableValueTypes(field.FieldType)
 				})
