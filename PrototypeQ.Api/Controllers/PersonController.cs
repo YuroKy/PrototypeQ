@@ -18,5 +18,7 @@ namespace PrototypeQ.Api.Controllers
 		{
 			return Ok(_personService.GetAll());
 		}
+
+		
 	}
 }

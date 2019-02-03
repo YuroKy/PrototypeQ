@@ -5,6 +5,9 @@ namespace PrototypeQ.Services.Abstractions.Services
 {
 	public interface IPersonService
 	{
-		List<PersonModel> GetAll();
+		List<PersonWithIdModel> GetAll();
+		List<PersonWithIdModel> GetByFilters(List<FilterModel> filters);
+		void Create(PersonModel model);
+		void Delete(int id);
 	}
 }

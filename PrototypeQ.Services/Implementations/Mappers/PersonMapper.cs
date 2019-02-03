@@ -28,5 +28,30 @@ namespace PrototypeQ.Services.Implementations.Mappers
 				Age = entity.Age
 			};
 		}
+
+		public static PersonWithIdModel ToPersonWithIdModel(PersonEntity entity)
+		{
+			return new PersonWithIdModel
+			{
+				Id = entity.Id,
+				FirstName = entity.FirstName,
+				LastName = entity.LastName,
+				Email = entity.Email,
+				Phone = entity.Phone,
+				Age = entity.Age
+			};
+		}
+
+		public static PersonEntity ToPersonEntity(PersonModel model)
+		{
+			return new PersonEntity
+			{
+				FirstName = model.FirstName,
+				LastName = model.LastName,
+				Email = model.Email,
+				Phone = model.Phone,
+				Age = model.Age
+			};
+		}
 	}
 }
