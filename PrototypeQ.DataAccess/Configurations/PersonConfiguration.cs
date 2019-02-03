@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using PrototypeQ.DataAccess.Entities;
+using PrototypeQ.Data.Entities;
 
-namespace PrototypeQ.DataAccess.Configurations
+namespace PrototypeQ.Data.Configurations
 {
 	public class PersonConfiguration : IEntityTypeConfiguration<PersonEntity>
 	{

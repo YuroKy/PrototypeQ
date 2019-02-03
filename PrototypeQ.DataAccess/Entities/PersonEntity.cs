@@ -1,4 +1,4 @@
-﻿namespace PrototypeQ.DataAccess.Entities
+﻿namespace PrototypeQ.Data.Entities
 {
 	public class PersonEntity
 	{

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using PrototypeQ.DataAccess.Contexts;
+using PrototypeQ.Data.Contexts;
 
 namespace PrototypeQ.DataAccess.Migrations
 {
@@ -20,7 +20,7 @@ namespace PrototypeQ.DataAccess.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("PrototypeQ.DataAccess.Entities.Person", b =>
+            modelBuilder.Entity("PrototypeQ.Data.Entities.Person", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

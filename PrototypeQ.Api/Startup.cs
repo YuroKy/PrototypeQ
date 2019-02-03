@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using PrototypeQ.DataAccess.Contexts;
+using PrototypeQ.Data.Contexts;
 using PrototypeQ.Services.Implementations.Extensions;
 
 namespace PrototypeQ.Api

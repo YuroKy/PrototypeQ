@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using PrototypeQ.DataAccess.Configurations;
-using PrototypeQ.DataAccess.Entities;
+using PrototypeQ.Data.Configurations;
+using PrototypeQ.Data.Entities;
 
-namespace PrototypeQ.DataAccess.Contexts
+namespace PrototypeQ.Data.Contexts
 {
 	public class ApplicationContext : DbContext
 	{

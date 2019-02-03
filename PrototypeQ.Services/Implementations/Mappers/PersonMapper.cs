@@ -1,5 +1,5 @@
-﻿using PrototypeQ.Data.Models;
-using PrototypeQ.DataAccess.Entities;
+﻿using PrototypeQ.Data.Entities;
+using PrototypeQ.Data.Models;
 
 namespace PrototypeQ.Services.Implementations.Mappers
 {
