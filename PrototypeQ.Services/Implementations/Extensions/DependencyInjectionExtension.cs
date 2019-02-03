@@ -15,6 +15,7 @@ namespace PrototypeQ.Services.Implementations.Extensions
 			services.AddScoped<IFileImportManager, CsvImportManager>();
 			services.AddScoped<IPersonService, PersonService>();
 			services.AddScoped<ICsvReadingStrategy, LinearCsvReadingStrategy>();
+			services.AddScoped<IFilterService, FilterService>();
 
 			return services;
 		}

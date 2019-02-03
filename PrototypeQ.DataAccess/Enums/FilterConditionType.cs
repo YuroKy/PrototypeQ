@@ -9,6 +9,7 @@
 		In = 4,
 		NotIn = 5,
 		IsNull = 6,
-		IsNotNull = 7
+		IsNotNull = 7,
+		Between = 8
 	}
 }
