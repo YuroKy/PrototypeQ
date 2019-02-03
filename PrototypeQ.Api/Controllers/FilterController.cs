@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PrototypeQ.DataAccess.Entities;
+using PrototypeQ.Data.Entities;
 using PrototypeQ.Services.Abstractions.Services;
 
 namespace PrototypeQ.Api.Controllers
@@ -15,6 +15,8 @@ namespace PrototypeQ.Api.Controllers
 			_filterService = filterService;
 		}
 
+		[HttpGet]
+		[Route("PersonFilters")]
 		public IActionResult GetPersonFilterInfo()
 		{
 			return Ok(_filterService.GetAvailableFilters(typeof(PersonEntity)));
