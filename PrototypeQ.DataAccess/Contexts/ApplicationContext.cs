@@ -10,8 +10,10 @@ namespace PrototypeQ.Data.Contexts
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			modelBuilder.ApplyConfiguration(new PersonConfiguration());
+			modelBuilder.ApplyConfiguration(new AliasConfiguration());
 		}
 
 		public DbSet<PersonEntity> People { get; set; }
+		public DbSet<AliasEntity> Aliases { get; set; }
 	}
 }
