@@ -32,6 +32,7 @@ namespace PrototypeQ.Services.Implementations.Services
 		public void Create(PersonModel model)
 		{
 			_dbContext.People.Add(PersonMapper.ToPersonEntity(model));
+			_dbContext.SaveChanges();
 		}
 
 		public void Delete(int id)
